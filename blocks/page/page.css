@@ -1,0 +1,21 @@
+.page{
+    background-color: #2A2C2F;
+    min-width: 320px;
+    max-width: 1280px;
+    margin: 0 auto;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../../fonts/Inter-Regular.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../../fonts/Inter-Black.otf);
+    font-weight: 900;
+}
+
