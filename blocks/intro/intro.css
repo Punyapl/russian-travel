@@ -1,5 +1,7 @@
 .intro{
-    width: 690px;
-    height: 429px;
-    margin-left: 148px;
+    max-width: 984px;
+    min-height: 429px;
+    /* margin-left: 148px; */
+    margin: auto;
+    /* align-self: center; */
 }

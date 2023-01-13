@@ -1,7 +1,8 @@
 .cover{
     width: 1184px;
     height: 740px;
-    margin-left: 48px;
+    /* margin-left: 48px; */
+    margin: auto;
     /* display: flex;
     flex-direction: column;
     align-items: center;
