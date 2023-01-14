@@ -20,3 +20,47 @@
     font-weight: 900;
 }
 
+/* @media screen and (max-width: 1024px) {
+    .header{
+        max-width: 928px;
+    }
+    
+    .lead__img{
+        width: 928px;
+    }
+    .lead__image{
+        width: 928px;
+    }
+
+    .photo-grid{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-auto-rows:225px;
+    }
+
+    .places{
+        max-width: 928px;
+    }
+    .place__image{
+        max-width: 440px;
+    }
+    .place__title{
+        max-width: 440px;
+    }
+    .place__container{
+        max-width: 456px;
+    }
+
+    .cover{
+        width: 1024px;
+    }
+    .cover__overlay{
+        max-width: 1024px;
+    }
+    .cover__link{
+        width: 1024px;
+    }
+
+    .footer{
+        width: 928px;
+    }
+} */
