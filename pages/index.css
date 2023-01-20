@@ -60,7 +60,6 @@
     .photo-grid{
         grid-template-columns: repeat(auto-fit, 300px);
         grid-auto-rows:225px;
-        /* width: 928px; */
     }
 
     .places{
@@ -77,16 +76,12 @@
     }
 
     .cover{
-        width: 1024px;
-        height: 640px;
-    }
-    .cover__overlay{
         max-width: 1024px;
-        height: 640px;
+        min-height: 640px;
     }
+
     .cover__link{
-        width: 1024px;
-        height: 640px;
+        min-height: 640px;
     }
 
     .footer{
@@ -139,16 +134,12 @@
     }
 
     .cover{
-        width: 768px;
-        height: 480px;
-    }
-    .cover__overlay{
         max-width: 768px;
-        height: 480px;
+        min-height: 480px;
     }
+
     .cover__link{
-        width: 768px;
-        height: 480px;
+        min-height: 480px;
     }
 
     .footer{
@@ -238,17 +229,14 @@
     }
 
     .cover{
-        width: 320px;
-        height: 200px;
-    }
-    .cover__overlay{
         max-width: 320px;
-        height: 200px;
+        min-height: 200px;
     }
+
     .cover__link{
-        width: 320px;
-        height: 200px;
+        min-height: 200px;
     }
+
     .cover__title{
         max-width: 288px;
         font-size: 32px;
@@ -270,7 +258,6 @@
     }
     .footer__link{
         width: 186px;
-        /* height: 24px; */
         font-size: 24px;
         line-height: 24px;
         margin-bottom: 32px;

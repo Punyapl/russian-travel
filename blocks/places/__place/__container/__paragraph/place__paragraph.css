@@ -1,23 +1,13 @@
 .place__paragraph{
-    /* display: inline-block; */
     width: 100%;
-    /* min-height: 100%; */
     font-weight: 400;
     font-size: 18px;
     line-height: 29px;
     color: #FFFFFF;
-    /* grid-area: paragraph1; */
     grid-area: paragraph;
     margin: 0;
-    /* box-sizing: border-box; */
-    /* padding-bottom: 26px; */
-    /* grid-row: 3/4; */
 }
 
 .place__paragraph:first-of-type{
     margin-bottom: 26px;
 } 
-
-/* .place__paragraph:last-child{
-    padding-bottom: 0;
-} */
