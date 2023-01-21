@@ -47,10 +47,10 @@
         margin-top: 48px;
     }
     .lead__img{
-        width: 928px;
+        width: 90vw;
     }
     .lead__image{
-        width: 928px;
+        width: 90vw;
     }
 
     .intro{
@@ -85,7 +85,7 @@
     }
 
     .footer{
-        width: 928px;
+        width: 90vw;
     }
 }
 
@@ -95,10 +95,10 @@
     }
     
     .lead__img{
-        width: 768px;
+        max-width: 768px;
     }
     .lead__image{
-        width: 768px;
+        max-width: 768px;
     }
     .lead__caption{
         max-width: 720px;
@@ -143,7 +143,7 @@
     }
 
     .footer{
-        width: 720px;
+        width: 90vw;
     }
 }
 
@@ -153,7 +153,17 @@
         font-size: 40px;
         line-height: 44px;
     }
+
+    .footer{
+        width: 100vw;
+    }
 }
+
+/* @media screen and (max-width: 575px) {
+    .footer{
+        width: 100vw;
+    }
+} */
 
 @media screen and (max-width: 555px) {
     .places{
@@ -186,7 +196,7 @@
     }
 
     .footer{
-        width: 90vw;
+        max-width: 90vw;
         display: flex;
         flex-direction: column;
         margin: auto;
@@ -194,7 +204,7 @@
         align-items: flex-start;
     }
     .footer__link{
-        width: 186px;
+        max-width: 186px;
         font-size: 24px;
         line-height: 24px;
         margin-bottom: 32px;
@@ -202,7 +212,7 @@
         box-sizing: border-box;
     }
     .footer__links{
-        width: 100%;
+        max-width: 100%;
         display: flex;
         flex-direction: column;
         padding: 0;
@@ -213,7 +223,7 @@
     }
 }
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 351px){
     .photo-grid{
         grid-template-columns: repeat(auto-fit, 288px);
         grid-auto-rows:216px;
@@ -246,7 +256,7 @@
         max-width: 288px;
     }
     .header__logo{
-        width: 142px;
+        max-width: 142px;
     }
     .header__lang-link{
         font-size: 18px;
@@ -258,7 +268,7 @@
     }
     
     .lead__title{
-        width: 288px;
+        max-width: 288px;
         font-size: 40px;
         line-height: 44px;
     }
@@ -269,13 +279,13 @@
         line-height: 20px;
     }
     .lead__img{
-        width: 320px;
+        max-width: 320px;
     }
     .lead__image{
-        width: 320px;
+        max-width: 320px;
     }
     .lead__caption{
-        width: 288px;
+        max-width: 288px;
     }
     
     .intro{
@@ -343,7 +353,7 @@
     }
 
     .footer{
-        width: 288px;
+        max-width: 288px;
         display: flex;
         flex-direction: column;
         margin: auto;
@@ -351,7 +361,7 @@
         align-items: flex-start;
     }
     .footer__link{
-        width: 186px;
+        max-width: 186px;
         font-size: 24px;
         line-height: 24px;
         margin-bottom: 32px;
@@ -359,7 +369,7 @@
         box-sizing: border-box;
     }
     .footer__links{
-        width: 100%;
+        max-width: 100%;
         display: flex;
         flex-direction: column;
         padding: 0;
