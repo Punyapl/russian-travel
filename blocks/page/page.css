@@ -10,19 +10,19 @@
 
 @font-face {
     font-family: 'Inter';
-    src: local('Inter'), url(../../fonts/Inter-Regular.otf);
+    src: url(../../fonts/Inter-Regular.otf) format("opentype");
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Inter';
-    src: local('Inter'), url(../../fonts/Inter-Black.otf);
+    src: url(../../fonts/Inter-Black.otf) format("opentype");
     font-weight: 900;
 }
 
 @font-face {
     font-family: 'Inter';
-    src: local('Inter'), url(../../fonts/Inter-Bold.otf);
-    font-weight: bold;
+    src: url(../../fonts/Inter-Bold.otf) format("opentype");
+    font-weight: 700;
 }
 
