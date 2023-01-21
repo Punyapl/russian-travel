@@ -1,3 +1,29 @@
 .places__container{
     max-width: 484px;
 }
+
+@media screen and (max-width: 1024px) {
+    .places__container{
+        max-width: 456px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places__container{
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .places__container{
+        max-width: 288px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places__container{
+        max-width: 288px;
+        margin: auto;
+    }
+}

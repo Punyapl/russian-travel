@@ -6,6 +6,21 @@
     "title website"
     "image paragraph";
     row-gap: 48px;
+    column-gap: 3vh;
     margin: auto;
     padding-bottom: 80px;
+}
+
+@media screen and (max-width: 555px) {
+    .places__place{
+        display: block;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places__place{
+        display: block;
+        padding-bottom: 50px;
+    }
 }

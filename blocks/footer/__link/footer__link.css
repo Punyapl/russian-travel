@@ -10,3 +10,25 @@
 .footer__link:hover{
     opacity: 0.8;
 }
+
+@media screen and (max-width: 555px) {
+    .footer__link{
+        max-width: 186px;
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 32px;
+        display: block;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__link{
+        max-width: 186px;
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 32px;
+        display: block;
+        box-sizing: border-box;
+    }
+}

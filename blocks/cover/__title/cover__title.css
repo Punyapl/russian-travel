@@ -8,3 +8,19 @@
     color: #ffffff;
     margin: 0;
 }
+
+@media screen and (max-width: 351px){
+    .cover__title{
+        max-width: 70vw;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title{
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

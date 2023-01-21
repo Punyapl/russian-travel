@@ -4,3 +4,27 @@
     grid-area: website;
     align-self: end;
 }
+
+@media screen and (max-width: 768px) {
+    .places__website{
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width: 555px){
+    .places__website{
+        margin: auto;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        max-width: 288px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places__website{
+        margin: auto;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        max-width: 288px;
+    }
+}
