@@ -66,13 +66,13 @@
     .places{
         max-width: 928px;
     }
-    .place__image{
+    .places__image{
         max-width: 440px;
     }
-    .place__title{
+    .places__title{
         max-width: 440px;
     }
-    .place__container{
+    .places__container{
         max-width: 456px;
     }
 
@@ -118,19 +118,19 @@
     .places{
         max-width: 720px;
     }
-    .place__image{
+    .places__image{
         max-width: 340px;
     }
-    .place__title{
+    .places__title{
         max-width: 340px;
         font-size: 42px;
         line-height: 46px;
         letter-spacing: 1px;
     }
-    .place__website{
+    .places__website{
         max-width: 352px;
     }
-    .place__container{
+    .places__container{
         max-width: 352px;
     }
 
@@ -160,12 +160,6 @@
     }
 }
 
-/* @media screen and (max-width: 575px) {
-    .footer{
-        width: 100vw;
-    }
-} */
-
 @media screen and (max-width: 555px) {
     .places{
         max-width: 320px;
@@ -174,24 +168,24 @@
         display: block;
         padding-bottom: 50px;
     }
-    .place__website{
+    .places__website{
         margin: auto;
         margin-top: 32px;
         margin-bottom: 32px;
         max-width: 288px;
     }
-    .place__image{
+    .places__image{
         max-width: 320px;
         margin-bottom: 32px;
         margin: auto;
     }
-    .place__title{
+    .places__title{
         max-width: 288px;
         font-size: 42px;
         line-height: 46px;
         letter-spacing: 1px;
     }
-    .place__container{
+    .places__container{
         max-width: 288px;
         margin: auto;
     }
@@ -311,24 +305,25 @@
         display: block;
         padding-bottom: 50px;
     }
-    .place__website{
+    .places__website{
         margin: auto;
         margin-top: 32px;
         margin-bottom: 32px;
         max-width: 288px;
     }
-    .place__image{
+    .places__image{
         max-width: 320px;
         margin-bottom: 32px;
         margin: auto;
     }
-    .place__title{
+    .places__title{
         max-width: 288px;
         font-size: 42px;
         line-height: 46px;
         letter-spacing: 1px;
+        margin: auto;
     }
-    .place__container{
+    .places__container{
         max-width: 288px;
         margin: auto;
     }
