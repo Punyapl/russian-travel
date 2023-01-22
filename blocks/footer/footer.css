@@ -16,6 +16,13 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .footer{
+        width: 720px;
+        margin-top: 88px;
+    }
+}
+
 @media screen and (max-width: 675px){
     .footer{
         width: 100vw;

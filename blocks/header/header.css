@@ -1,12 +1,13 @@
 .header{
     max-width: 1184px;
     min-width: 288px;
+    max-height: 52px;
+    height: 100%;
     margin: auto;
     padding-top: 28px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
 }
 
 @media screen and (max-width: 1024px){
@@ -24,5 +25,6 @@
 @media screen and (max-width: 320px){
     .header{
         max-width: 288px;
+        padding-top: 16px;
     }
 }

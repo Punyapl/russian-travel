@@ -11,9 +11,16 @@
     padding-bottom: 80px;
 }
 
+.places__place:last-child{
+    padding-bottom: 92px;
+}
+
 @media screen and (max-width: 582px) {
     .places__place{
         display: block;
         padding-bottom: 50px;
+    }
+    .places__place:last-child{
+        padding-bottom: 60px;
     }
 }
