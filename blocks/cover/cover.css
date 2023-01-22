@@ -32,10 +32,3 @@
         min-height: 200px;
     }
 }
-
-@media screen and (max-width: 351px){ /*353px*/
-    .cover{
-        max-width: 100vw;
-        min-height: 200px;
-    }
-}
