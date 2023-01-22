@@ -11,7 +11,7 @@
     padding-bottom: 80px;
 }
 
-@media screen and (max-width: 555px) {
+@media screen and (max-width: 582px) {
     .places__place{
         display: block;
         padding-bottom: 50px;
