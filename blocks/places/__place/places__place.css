@@ -17,10 +17,3 @@
         padding-bottom: 50px;
     }
 }
-
-@media screen and (max-width: 320px) {
-    .places__place{
-        display: block;
-        padding-bottom: 50px;
-    }
-}

@@ -20,10 +20,3 @@
         margin: auto;
     }
 }
-
-@media screen and (max-width: 320px) {
-    .places__container{
-        max-width: 288px;
-        margin: auto;
-    }
-}
